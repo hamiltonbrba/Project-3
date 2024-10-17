@@ -1,4 +1,4 @@
-area,area_title,primary_state,occupation_code,occupation_title,occupation_group,total_employment,employment_prse,jobs_per_1000,location_quotient,mean_hourly_wage,mean_annual_wage,mean_prse,hourly_percentile_25,hourly_median,hourly_percentile_75,annual_percentile_25,annual_median,annual_percentile_75
+area,area_title,prim_state,occ_code,occ_title,o_group,tot_emp,emp_prse,jobs_1000,loc_quotient,h_mean,a_mean,mean_prse,h_pct25,h_median,h_pct75,a_pct25,a_median,a_pct75
 1,Alabama,AL,00-0000,All Occupations,total,2053090.0,0.0,1000.0,1.0,25.67,53400.0,0.2,14.22,19.88,30.09,29580.0,41350.0,62580.0
 2,Alaska,AK,00-0000,All Occupations,total,311610.0,0.0,1000.0,1.0,33.6,69880.0,0.3,18.62,26.99,40.52,38720.0,56140.0,84280.0
 4,Arizona,AZ,00-0000,All Occupations,total,3129720.0,0.0,1000.0,1.0,30.31,63040.0,0.5,17.38,22.92,35.05,36150.0,47680.0,72900.0
@@ -105,7 +105,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 2,Alaska,AK,11-3021,Computer and Information Systems Managers,detailed,640.0,4.5,2.045,0.52,65.87,137010.0,1.7,50.75,64.23,78.35,105560.0,133600.0,162970.0
 4,Arizona,AZ,11-3021,Computer and Information Systems Managers,detailed,14180.0,4.5,4.531,1.16,78.8,163900.0,1.0,59.48,78.48,89.71,123720.0,163230.0,186600.0
 5,Arkansas,AR,11-3021,Computer and Information Systems Managers,detailed,3230.0,3.4,2.54,0.65,59.2,123130.0,1.2,40.46,54.47,72.21,84160.0,113290.0,150200.0
-6,California,CA,11-3021,Computer and Information Systems Managers,detailed,98430.0,1.5,5.485,1.41,104.34,217030.0,0.7,79.84,101.2,,166070.0,210490.0,
 8,Colorado,CO,11-3021,Computer and Information Systems Managers,detailed,12080.0,13.3,4.267,1.09,88.71,184520.0,5.3,67.39,83.19,103.2,140170.0,173030.0,214660.0
 9,Connecticut,CT,11-3021,Computer and Information Systems Managers,detailed,9950.0,2.5,5.992,1.54,78.58,163450.0,1.2,60.42,76.87,91.07,125670.0,159880.0,189420.0
 10,Delaware,DE,11-3021,Computer and Information Systems Managers,detailed,1670.0,3.6,3.553,0.91,94.53,196630.0,0.7,77.36,88.55,106.81,160910.0,184190.0,222160.0
@@ -127,13 +126,11 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 27,Minnesota,MN,11-3021,Computer and Information Systems Managers,detailed,10450.0,2.0,3.626,0.93,83.29,173230.0,0.8,64.17,81.3,99.01,133470.0,169100.0,205940.0
 28,Mississippi,MS,11-3021,Computer and Information Systems Managers,detailed,1340.0,12.2,1.162,0.3,57.75,120120.0,2.4,42.3,51.29,67.25,87980.0,106690.0,139880.0
 29,Missouri,MO,11-3021,Computer and Information Systems Managers,detailed,7960.0,3.0,2.769,0.71,69.89,145360.0,1.1,50.66,65.45,82.61,105360.0,136130.0,171830.0
-30,Montana,MT,11-3021,Computer and Information Systems Managers,detailed,1060.0,9.4,2.104,0.54,,,,,,,,,
 31,Nebraska,NE,11-3021,Computer and Information Systems Managers,detailed,5030.0,3.7,5.029,1.29,65.61,136460.0,2.1,50.15,63.78,79.06,104310.0,132660.0,164440.0
 32,Nevada,NV,11-3021,Computer and Information Systems Managers,detailed,2720.0,6.3,1.835,0.47,68.34,142150.0,2.4,46.35,61.72,79.49,96410.0,128380.0,165350.0
 33,New Hampshire,NH,11-3021,Computer and Information Systems Managers,detailed,3260.0,4.3,4.836,1.24,81.8,170140.0,1.2,63.51,78.71,97.13,132090.0,163720.0,202030.0
 34,New Jersey,NJ,11-3021,Computer and Information Systems Managers,detailed,27890.0,2.4,6.638,1.7,98.62,205120.0,0.9,79.93,92.04,107.25,166260.0,191450.0,223070.0
 35,New Mexico,NM,11-3021,Computer and Information Systems Managers,detailed,1430.0,4.9,1.69,0.43,67.57,140550.0,1.9,49.96,61.89,81.32,103930.0,128730.0,169140.0
-36,New York,NY,11-3021,Computer and Information Systems Managers,detailed,39190.0,1.6,4.173,1.07,102.85,213930.0,1.0,77.85,99.52,,161920.0,207000.0,
 37,North Carolina,NC,11-3021,Computer and Information Systems Managers,detailed,21660.0,1.8,4.516,1.16,84.72,176210.0,1.9,62.72,78.95,97.84,130450.0,164210.0,203500.0
 38,North Dakota,ND,11-3021,Computer and Information Systems Managers,detailed,640.0,4.3,1.527,0.39,65.97,137220.0,2.3,49.5,63.49,76.15,102950.0,132060.0,158400.0
 39,Ohio,OH,11-3021,Computer and Information Systems Managers,detailed,13670.0,2.3,2.499,0.64,79.24,164820.0,1.2,61.02,78.02,98.37,126920.0,162280.0,204610.0
@@ -148,7 +145,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 49,Utah,UT,11-3021,Computer and Information Systems Managers,detailed,7400.0,4.6,4.406,1.13,78.49,163260.0,1.5,60.47,79.17,86.96,125770.0,164670.0,180880.0
 50,Vermont,VT,11-3021,Computer and Information Systems Managers,detailed,780.0,10.0,2.584,0.66,75.17,156360.0,2.6,47.11,61.86,86.37,97990.0,128660.0,179650.0
 51,Virginia,VA,11-3021,Computer and Information Systems Managers,detailed,16460.0,5.4,4.134,1.06,93.38,194230.0,0.8,73.07,87.33,107.96,151990.0,181650.0,224550.0
-53,Washington,WA,11-3021,Computer and Information Systems Managers,detailed,16680.0,5.3,4.773,1.22,99.71,207390.0,0.9,77.15,97.21,,160460.0,202190.0,
 54,West Virginia,WV,11-3021,Computer and Information Systems Managers,detailed,1110.0,8.5,1.612,0.41,72.64,151090.0,2.8,58.72,69.91,88.22,122140.0,145420.0,183500.0
 55,Wisconsin,WI,11-3021,Computer and Information Systems Managers,detailed,6790.0,2.7,2.352,0.6,74.78,155530.0,0.9,58.87,69.02,82.91,122450.0,143570.0,172440.0
 56,Wyoming,WY,11-3021,Computer and Information Systems Managers,detailed,310.0,4.8,1.141,0.29,57.23,119030.0,3.8,43.77,51.81,64.59,91050.0,107750.0,134350.0
@@ -565,7 +561,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 12,Florida,FL,15-1221,Computer and Information Research Scientists,detailed,1160.0,22.3,0.121,0.52,63.31,131680.0,3.3,46.63,56.82,74.62,96990.0,118190.0,155200.0
 13,Georgia,GA,15-1221,Computer and Information Research Scientists,detailed,620.0,4.6,0.13,0.56,44.49,92530.0,2.2,35.74,40.19,52.0,74340.0,83600.0,108160.0
 15,Hawaii,HI,15-1221,Computer and Information Research Scientists,detailed,110.0,22.0,0.181,0.78,66.21,137720.0,4.8,57.46,64.02,67.34,119520.0,133160.0,140070.0
-16,Idaho,ID,15-1221,Computer and Information Research Scientists,detailed,,,,,84.31,175360.0,5.5,78.68,78.68,101.22,163660.0,163660.0,210530.0
 17,Illinois,IL,15-1221,Computer and Information Research Scientists,detailed,190.0,20.4,0.032,0.14,55.49,115410.0,2.5,41.64,55.99,64.48,86610.0,116450.0,134110.0
 18,Indiana,IN,15-1221,Computer and Information Research Scientists,detailed,680.0,1.0,0.216,0.93,42.68,88770.0,0.8,31.34,39.6,50.87,65180.0,82360.0,105800.0
 19,Iowa,IA,15-1221,Computer and Information Research Scientists,detailed,40.0,35.7,0.028,0.12,49.38,102710.0,13.1,34.77,53.13,54.63,72320.0,110510.0,113620.0
@@ -573,7 +568,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 21,Kentucky,KY,15-1221,Computer and Information Research Scientists,detailed,210.0,16.1,0.108,0.47,51.58,107290.0,5.1,46.76,55.89,55.89,97250.0,116250.0,116250.0
 22,Louisiana,LA,15-1221,Computer and Information Research Scientists,detailed,110.0,10.7,0.062,0.27,51.23,106560.0,2.0,43.31,53.9,58.4,90080.0,112110.0,121470.0
 24,Maryland,MD,15-1221,Computer and Information Research Scientists,detailed,2310.0,5.4,0.862,3.72,68.54,142570.0,1.4,55.64,70.0,82.72,115730.0,145600.0,172060.0
-25,Massachusetts,MA,15-1221,Computer and Information Research Scientists,detailed,,,,,85.97,178820.0,5.0,67.66,81.74,91.57,140730.0,170020.0,190470.0
 26,Michigan,MI,15-1221,Computer and Information Research Scientists,detailed,270.0,12.9,0.061,0.27,57.6,119800.0,4.5,30.47,54.0,76.33,63390.0,112330.0,158760.0
 27,Minnesota,MN,15-1221,Computer and Information Research Scientists,detailed,50.0,24.7,0.016,0.07,62.71,130440.0,7.9,51.25,56.16,74.49,106600.0,116810.0,154930.0
 28,Mississippi,MS,15-1221,Computer and Information Research Scientists,detailed,290.0,7.7,0.253,1.09,53.58,111450.0,2.7,40.03,53.42,66.97,83260.0,111110.0,139300.0
@@ -582,7 +576,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 32,Nevada,NV,15-1221,Computer and Information Research Scientists,detailed,60.0,11.7,0.042,0.18,59.91,124620.0,4.0,44.46,60.98,79.1,92480.0,126840.0,164530.0
 33,New Hampshire,NH,15-1221,Computer and Information Research Scientists,detailed,150.0,32.7,0.223,0.96,65.9,137070.0,3.2,49.42,63.24,79.3,102800.0,131540.0,164950.0
 34,New Jersey,NJ,15-1221,Computer and Information Research Scientists,detailed,1200.0,18.4,0.286,1.23,64.55,134260.0,5.8,46.41,62.48,78.61,96540.0,129950.0,163510.0
-35,New Mexico,NM,15-1221,Computer and Information Research Scientists,detailed,,,,,81.77,170070.0,1.4,65.35,82.78,82.78,135940.0,172190.0,172190.0
 36,New York,NY,15-1221,Computer and Information Research Scientists,detailed,740.0,10.0,0.079,0.34,76.17,158440.0,2.8,55.13,72.82,91.44,114670.0,151470.0,190180.0
 37,North Carolina,NC,15-1221,Computer and Information Research Scientists,detailed,370.0,21.0,0.078,0.34,59.02,122750.0,5.5,39.09,50.57,69.95,81300.0,105180.0,145500.0
 39,Ohio,OH,15-1221,Computer and Information Research Scientists,detailed,170.0,5.1,0.031,0.14,57.47,119540.0,1.3,45.34,59.14,64.63,94310.0,123010.0,134430.0
@@ -673,7 +666,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 25,Massachusetts,MA,15-1243,Database Architects,detailed,1650.0,12.8,0.452,1.15,73.48,152850.0,2.3,61.17,73.09,86.34,127230.0,152030.0,179580.0
 26,Michigan,MI,15-1243,Database Architects,detailed,1290.0,15.3,0.296,0.75,55.0,114390.0,5.9,41.81,58.99,65.05,86970.0,122700.0,135310.0
 27,Minnesota,MN,15-1243,Database Architects,detailed,790.0,7.7,0.276,0.7,61.72,128380.0,3.0,50.86,62.67,74.12,105790.0,130350.0,154180.0
-28,Mississippi,MS,15-1243,Database Architects,detailed,,,,,38.34,79750.0,4.3,34.59,34.59,36.5,71950.0,71950.0,75920.0
 29,Missouri,MO,15-1243,Database Architects,detailed,1930.0,17.3,0.67,1.7,51.23,106560.0,3.3,35.61,49.43,63.44,74070.0,102810.0,131940.0
 30,Montana,MT,15-1243,Database Architects,detailed,50.0,18.3,0.101,0.26,56.36,117220.0,5.6,41.59,54.12,67.58,86510.0,112580.0,140560.0
 31,Nebraska,NE,15-1243,Database Architects,detailed,700.0,18.5,0.697,1.77,62.61,130230.0,3.7,49.24,62.07,72.11,102430.0,129110.0,149990.0
@@ -703,7 +695,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 1,Alabama,AL,15-1251,Computer Programmers,detailed,1860.0,10.4,0.906,1.14,46.64,97020.0,5.7,35.19,48.52,58.25,73200.0,100920.0,121150.0
 2,Alaska,AK,15-1251,Computer Programmers,detailed,430.0,7.4,1.376,1.74,45.91,95490.0,1.2,36.52,45.64,53.6,75960.0,94930.0,111480.0
 4,Arizona,AZ,15-1251,Computer Programmers,detailed,3010.0,20.5,0.963,1.21,46.49,96700.0,5.5,32.44,44.64,58.5,67480.0,92850.0,121680.0
-5,Arkansas,AR,15-1251,Computer Programmers,detailed,1700.0,31.0,1.338,1.69,,,,,,,,,
 6,California,CA,15-1251,Computer Programmers,detailed,20680.0,9.1,1.152,1.45,59.93,124660.0,2.9,39.47,55.18,72.26,82090.0,114780.0,150310.0
 8,Colorado,CO,15-1251,Computer Programmers,detailed,1420.0,16.6,0.5,0.63,55.56,115550.0,8.3,41.92,47.91,62.59,87190.0,99650.0,130180.0
 9,Connecticut,CT,15-1251,Computer Programmers,detailed,1850.0,13.8,1.112,1.4,51.92,108000.0,3.5,39.84,49.31,55.0,82860.0,102560.0,114400.0
@@ -718,13 +709,11 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 19,Iowa,IA,15-1251,Computer Programmers,detailed,1140.0,19.4,0.735,0.93,40.15,83520.0,2.5,32.0,39.56,45.74,66560.0,82290.0,95130.0
 20,Kansas,KS,15-1251,Computer Programmers,detailed,510.0,36.0,0.36,0.45,47.05,97860.0,9.3,32.88,42.32,58.07,68380.0,88030.0,120780.0
 21,Kentucky,KY,15-1251,Computer Programmers,detailed,1220.0,20.7,0.623,0.79,46.85,97450.0,5.5,36.05,42.74,55.93,74980.0,88910.0,116330.0
-22,Louisiana,LA,15-1251,Computer Programmers,detailed,1680.0,11.8,0.905,1.14,,,,,,,,,
 23,Maine,ME,15-1251,Computer Programmers,detailed,390.0,42.5,0.621,0.78,46.98,97720.0,20.4,23.53,40.18,73.12,48940.0,83560.0,152090.0
 24,Maryland,MD,15-1251,Computer Programmers,detailed,2980.0,19.7,1.115,1.41,52.65,109520.0,6.4,38.47,49.7,64.5,80020.0,103380.0,134160.0
 25,Massachusetts,MA,15-1251,Computer Programmers,detailed,4120.0,11.4,1.13,1.43,55.02,114450.0,2.6,47.55,54.24,62.56,98890.0,112820.0,130130.0
 26,Michigan,MI,15-1251,Computer Programmers,detailed,4050.0,14.6,0.931,1.17,43.6,90700.0,3.6,30.62,39.63,50.92,63680.0,82420.0,105900.0
 27,Minnesota,MN,15-1251,Computer Programmers,detailed,2080.0,10.0,0.721,0.91,48.65,101180.0,11.0,38.56,48.47,54.64,80190.0,100810.0,113650.0
-28,Mississippi,MS,15-1251,Computer Programmers,detailed,,,,,33.53,69730.0,2.9,30.52,30.52,34.42,63470.0,63470.0,71590.0
 29,Missouri,MO,15-1251,Computer Programmers,detailed,2930.0,15.4,1.019,1.29,36.06,75010.0,6.9,17.79,34.78,48.65,37000.0,72330.0,101200.0
 30,Montana,MT,15-1251,Computer Programmers,detailed,360.0,38.5,0.712,0.9,43.7,90890.0,11.0,32.63,44.56,56.49,67860.0,92670.0,117500.0
 31,Nebraska,NE,15-1251,Computer Programmers,detailed,1310.0,20.7,1.308,1.65,45.59,94820.0,4.7,34.28,48.04,56.61,71290.0,99930.0,117750.0
@@ -750,7 +739,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 53,Washington,WA,15-1251,Computer Programmers,detailed,3460.0,10.0,0.991,1.25,76.21,158520.0,5.0,62.15,78.09,94.96,129280.0,162440.0,197510.0
 54,West Virginia,WV,15-1251,Computer Programmers,detailed,250.0,16.3,0.356,0.45,36.26,75420.0,4.3,23.55,38.86,45.72,48980.0,80840.0,95100.0
 55,Wisconsin,WI,15-1251,Computer Programmers,detailed,2280.0,11.6,0.789,1.0,44.12,91770.0,2.5,34.88,42.91,55.15,72540.0,89250.0,114710.0
-56,Wyoming,WY,15-1251,Computer Programmers,detailed,,,,,37.77,78560.0,21.0,25.55,38.35,48.67,53140.0,79760.0,101240.0
 1,Alabama,AL,15-1252,Software Developers,detailed,17130.0,4.7,8.346,0.76,53.19,110630.0,1.5,37.73,49.39,64.57,78480.0,102730.0,134310.0
 2,Alaska,AK,15-1252,Software Developers,detailed,280.0,47.8,0.893,0.08,70.01,145630.0,4.6,52.27,72.79,84.83,108720.0,151400.0,176450.0
 4,Arizona,AZ,15-1252,Software Developers,detailed,38540.0,2.7,12.313,1.13,61.56,128040.0,1.6,45.77,59.22,69.85,95200.0,123180.0,145280.0
@@ -803,7 +791,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 55,Wisconsin,WI,15-1252,Software Developers,detailed,21800.0,8.0,7.555,0.69,51.69,107500.0,1.1,39.2,49.36,61.3,81540.0,102660.0,127500.0
 56,Wyoming,WY,15-1252,Software Developers,detailed,670.0,19.6,2.453,0.22,61.44,127790.0,2.6,44.15,66.28,71.11,91820.0,137860.0,147910.0
 1,Alabama,AL,15-1253,Software Quality Assurance Analysts and Testers,detailed,1850.0,9.9,0.9,0.67,48.81,101520.0,2.9,37.66,45.45,61.78,78340.0,94530.0,128510.0
-2,Alaska,AK,15-1253,Software Quality Assurance Analysts and Testers,detailed,,,,,51.73,107600.0,9.4,47.91,47.91,63.38,99650.0,99650.0,131830.0
 4,Arizona,AZ,15-1253,Software Quality Assurance Analysts and Testers,detailed,3460.0,5.1,1.106,0.83,47.23,98250.0,2.3,37.32,46.93,55.94,77630.0,97610.0,116360.0
 6,California,CA,15-1253,Software Quality Assurance Analysts and Testers,detailed,32940.0,2.3,1.835,1.37,63.82,132750.0,0.7,45.92,62.21,78.06,95520.0,129400.0,162360.0
 8,Colorado,CO,15-1253,Software Quality Assurance Analysts and Testers,detailed,6430.0,11.8,2.269,1.7,54.91,114210.0,2.0,43.62,55.74,62.28,90730.0,115940.0,129540.0
@@ -812,7 +799,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 11,District of Columbia,DC,15-1253,Software Quality Assurance Analysts and Testers,detailed,690.0,20.2,0.979,0.73,58.73,122160.0,5.1,43.34,58.64,65.27,90160.0,121970.0,135770.0
 12,Florida,FL,15-1253,Software Quality Assurance Analysts and Testers,detailed,11620.0,7.5,1.214,0.91,46.75,97240.0,5.6,33.93,46.0,56.7,70560.0,95690.0,117930.0
 13,Georgia,GA,15-1253,Software Quality Assurance Analysts and Testers,detailed,6060.0,5.1,1.273,0.95,47.61,99030.0,1.9,37.25,47.51,58.19,77480.0,98820.0,121040.0
-15,Hawaii,HI,15-1253,Software Quality Assurance Analysts and Testers,detailed,,,,,54.27,112880.0,5.5,45.88,55.99,68.53,95430.0,116460.0,142540.0
 16,Idaho,ID,15-1253,Software Quality Assurance Analysts and Testers,detailed,720.0,20.9,0.872,0.65,57.48,119560.0,27.3,22.36,36.88,52.02,46510.0,76720.0,108190.0
 17,Illinois,IL,15-1253,Software Quality Assurance Analysts and Testers,detailed,7700.0,6.4,1.28,0.96,45.6,94850.0,3.4,32.25,44.48,54.31,67080.0,92520.0,112970.0
 18,Indiana,IN,15-1253,Software Quality Assurance Analysts and Testers,detailed,1550.0,11.0,0.49,0.37,42.61,88630.0,1.9,31.5,40.69,49.25,65510.0,84630.0,102440.0
@@ -862,8 +848,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 11,District of Columbia,DC,15-1254,Web Developers,detailed,670.0,20.3,0.959,1.71,59.44,123640.0,5.8,42.51,54.08,69.87,88420.0,112490.0,145330.0
 12,Florida,FL,15-1254,Web Developers,detailed,5860.0,15.2,0.612,1.09,45.84,95360.0,5.2,35.45,37.81,49.18,73730.0,78640.0,102280.0
 13,Georgia,GA,15-1254,Web Developers,detailed,1300.0,8.2,0.274,0.49,51.01,106100.0,5.9,34.79,42.62,54.33,72350.0,88640.0,113010.0
-15,Hawaii,HI,15-1254,Web Developers,detailed,250.0,49.9,0.411,0.73,,,,,,,,,
-16,Idaho,ID,15-1254,Web Developers,detailed,,,,,33.65,70000.0,12.0,25.0,28.7,43.21,52000.0,59690.0,89890.0
 17,Illinois,IL,15-1254,Web Developers,detailed,4260.0,42.5,0.709,1.26,44.76,93100.0,3.7,38.67,48.36,48.36,80430.0,100580.0,100580.0
 18,Indiana,IN,15-1254,Web Developers,detailed,1190.0,49.6,0.378,0.67,31.84,66220.0,9.5,26.9,27.63,36.81,55960.0,57470.0,76560.0
 19,Iowa,IA,15-1254,Web Developers,detailed,430.0,9.8,0.28,0.5,38.25,79550.0,4.3,26.48,33.37,46.65,55070.0,69410.0,97020.0
@@ -872,13 +856,10 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 22,Louisiana,LA,15-1254,Web Developers,detailed,370.0,14.3,0.199,0.35,30.95,64370.0,3.3,23.64,31.17,33.53,49180.0,64820.0,69740.0
 23,Maine,ME,15-1254,Web Developers,detailed,290.0,41.5,0.47,0.84,44.53,92630.0,25.7,28.39,31.68,54.06,59050.0,65890.0,112450.0
 24,Maryland,MD,15-1254,Web Developers,detailed,2070.0,9.5,0.772,1.37,46.88,97510.0,3.6,32.8,39.98,53.6,68210.0,83150.0,111490.0
-25,Massachusetts,MA,15-1254,Web Developers,detailed,,,,,46.16,96010.0,11.3,29.35,48.0,53.36,61050.0,99850.0,110980.0
 26,Michigan,MI,15-1254,Web Developers,detailed,1030.0,9.8,0.238,0.42,43.4,90270.0,2.9,29.54,42.53,56.48,61440.0,88460.0,117470.0
 27,Minnesota,MN,15-1254,Web Developers,detailed,2040.0,25.8,0.708,1.26,49.31,102560.0,7.7,34.97,45.09,61.48,72750.0,93780.0,127870.0
 28,Mississippi,MS,15-1254,Web Developers,detailed,170.0,13.6,0.144,0.26,31.34,65190.0,8.6,21.76,27.87,41.04,45260.0,57970.0,85360.0
-29,Missouri,MO,15-1254,Web Developers,detailed,,,,,39.01,81130.0,12.7,29.74,32.9,48.15,61860.0,68430.0,100150.0
 30,Montana,MT,15-1254,Web Developers,detailed,180.0,14.9,0.354,0.63,29.33,61000.0,4.9,20.71,27.87,34.03,43070.0,57970.0,70780.0
-31,Nebraska,NE,15-1254,Web Developers,detailed,,,,,39.07,81270.0,16.0,25.07,33.81,50.84,52140.0,70310.0,105740.0
 32,Nevada,NV,15-1254,Web Developers,detailed,270.0,14.2,0.182,0.32,33.94,70600.0,4.6,24.12,30.3,43.3,50170.0,63020.0,90060.0
 33,New Hampshire,NH,15-1254,Web Developers,detailed,400.0,30.7,0.596,1.06,44.7,92980.0,4.8,36.12,43.85,53.85,75140.0,91210.0,112000.0
 34,New Jersey,NJ,15-1254,Web Developers,detailed,2400.0,14.7,0.571,1.02,41.1,85490.0,7.6,24.51,38.26,52.55,50980.0,79590.0,109310.0
@@ -1025,7 +1006,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 37,North Carolina,NC,15-2041,Statisticians,detailed,1790.0,12.0,0.372,1.89,57.35,119280.0,1.9,42.79,52.86,67.96,89000.0,109950.0,141360.0
 38,North Dakota,ND,15-2041,Statisticians,detailed,50.0,2.6,0.12,0.61,36.38,75670.0,1.0,29.53,35.11,40.43,61420.0,73030.0,84100.0
 39,Ohio,OH,15-2041,Statisticians,detailed,350.0,8.4,0.064,0.32,42.5,88410.0,1.7,30.69,42.39,52.66,63830.0,88170.0,109520.0
-40,Oklahoma,OK,15-2041,Statisticians,detailed,,,,,40.39,84000.0,2.8,29.25,37.63,50.44,60830.0,78270.0,104920.0
 41,Oregon,OR,15-2041,Statisticians,detailed,600.0,4.3,0.309,1.57,42.14,87650.0,0.8,33.51,42.27,51.17,69700.0,87920.0,106430.0
 42,Pennsylvania,PA,15-2041,Statisticians,detailed,2350.0,8.5,0.394,2.0,46.54,96810.0,3.0,29.94,40.17,62.19,62280.0,83560.0,129360.0
 44,Rhode Island,RI,15-2041,Statisticians,detailed,40.0,13.0,0.085,0.43,43.81,91120.0,1.7,38.76,42.77,47.29,80620.0,88970.0,98370.0
@@ -1055,7 +1035,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 17,Illinois,IL,15-2051,Data Scientists,detailed,6320.0,3.5,1.052,0.83,55.69,115840.0,0.9,39.42,52.2,66.13,82000.0,108580.0,137540.0
 18,Indiana,IN,15-2051,Data Scientists,detailed,2440.0,6.0,0.772,0.61,44.48,92520.0,3.1,31.25,39.24,52.51,65000.0,81620.0,109220.0
 19,Iowa,IA,15-2051,Data Scientists,detailed,2270.0,2.6,1.472,1.16,47.38,98550.0,0.9,34.2,46.62,57.72,71140.0,96980.0,120060.0
-20,Kansas,KS,15-2051,Data Scientists,detailed,,,,,51.44,107000.0,9.0,40.0,48.85,61.06,83210.0,101610.0,127000.0
 21,Kentucky,KY,15-2051,Data Scientists,detailed,2080.0,10.0,1.058,0.83,46.29,96290.0,3.1,31.53,42.69,58.51,65570.0,88800.0,121700.0
 22,Louisiana,LA,15-2051,Data Scientists,detailed,920.0,4.8,0.497,0.39,35.74,74330.0,1.7,31.22,33.04,38.21,64950.0,68730.0,79480.0
 23,Maine,ME,15-2051,Data Scientists,detailed,710.0,8.7,1.15,0.91,51.62,107370.0,3.4,38.49,48.06,66.3,80050.0,99960.0,137900.0
@@ -1089,7 +1068,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 53,Washington,WA,15-2051,Data Scientists,detailed,5640.0,5.3,1.613,1.27,71.5,148730.0,1.3,47.4,63.76,84.65,98590.0,132620.0,176080.0
 54,West Virginia,WV,15-2051,Data Scientists,detailed,180.0,24.3,0.266,0.21,45.35,94330.0,10.6,22.08,32.53,47.86,45930.0,67660.0,99560.0
 55,Wisconsin,WI,15-2051,Data Scientists,detailed,3090.0,5.7,1.07,0.84,50.6,105250.0,1.4,39.56,48.96,60.12,82280.0,101850.0,125050.0
-56,Wyoming,WY,15-2051,Data Scientists,detailed,,,,,60.25,125330.0,15.8,54.64,62.68,72.55,113640.0,130370.0,150900.0
 1,Alabama,AL,17-0000,Architecture and Engineering Occupations,major,47820.0,1.6,23.292,1.39,48.95,101810.0,0.8,33.47,46.06,61.97,69610.0,95800.0,128900.0
 2,Alaska,AK,17-0000,Architecture and Engineering Occupations,major,7160.0,2.9,22.986,1.37,50.99,106070.0,1.3,37.45,47.78,61.37,77890.0,99380.0,127660.0
 4,Arizona,AZ,17-0000,Architecture and Engineering Occupations,major,54110.0,2.2,17.288,1.03,47.27,98310.0,0.7,33.95,43.42,58.63,70620.0,90310.0,121950.0
@@ -1194,7 +1172,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 56,Wyoming,WY,19-0000,"Life, Physical, and Social Science Occupations",major,4300.0,1.8,15.695,1.72,35.02,72830.0,0.9,24.56,32.34,40.94,51090.0,67280.0,85160.0
 1,Alabama,AL,19-1022,Microbiologists,detailed,130.0,8.3,0.065,0.46,32.46,67530.0,3.3,23.22,29.59,38.09,48300.0,61540.0,79230.0
 2,Alaska,AK,19-1022,Microbiologists,detailed,30.0,4.6,0.101,0.71,36.7,76330.0,1.0,28.93,34.14,40.64,60170.0,71010.0,84530.0
-4,Arizona,AZ,19-1022,Microbiologists,detailed,110.0,33.2,0.034,0.24,,,,,,,,,
 5,Arkansas,AR,19-1022,Microbiologists,detailed,170.0,9.0,0.137,0.97,35.89,74650.0,2.1,24.19,30.0,42.47,50320.0,62390.0,88340.0
 6,California,CA,19-1022,Microbiologists,detailed,3120.0,8.2,0.174,1.23,53.2,110660.0,2.3,39.38,49.31,62.58,81910.0,102570.0,130170.0
 8,Colorado,CO,19-1022,Microbiologists,detailed,410.0,6.7,0.147,1.03,38.21,79470.0,2.7,26.49,32.45,47.12,55100.0,67490.0,98000.0
@@ -1246,7 +1223,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 6,California,CA,19-1029,"Biological Scientists, All Other",detailed,16590.0,5.6,0.925,2.29,58.37,121410.0,1.5,39.35,52.96,67.66,81840.0,110150.0,140730.0
 8,Colorado,CO,19-1029,"Biological Scientists, All Other",detailed,890.0,4.9,0.315,0.78,48.16,100160.0,2.4,35.43,44.11,55.26,73690.0,91750.0,114930.0
 9,Connecticut,CT,19-1029,"Biological Scientists, All Other",detailed,390.0,18.1,0.235,0.58,57.72,120060.0,2.5,39.47,53.0,62.95,82090.0,110240.0,130940.0
-11,District of Columbia,DC,19-1029,"Biological Scientists, All Other",detailed,,,,,43.05,89550.0,2.7,28.62,36.14,51.96,59530.0,75170.0,108070.0
 12,Florida,FL,19-1029,"Biological Scientists, All Other",detailed,3210.0,1.5,0.336,0.83,25.91,53880.0,1.8,14.93,18.75,35.43,31050.0,39000.0,73690.0
 13,Georgia,GA,19-1029,"Biological Scientists, All Other",detailed,1540.0,26.2,0.325,0.81,42.01,87390.0,3.2,35.08,40.09,46.25,72970.0,83390.0,96200.0
 15,Hawaii,HI,19-1029,"Biological Scientists, All Other",detailed,340.0,1.9,0.553,1.37,43.3,90060.0,0.2,36.66,43.76,49.7,76250.0,91020.0,103380.0
@@ -1399,7 +1375,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 8,Colorado,CO,23-0000,Legal Occupations,major,26850.0,2.2,9.481,1.16,72.82,151460.0,6.1,34.41,53.2,95.72,71570.0,110660.0,199090.0
 9,Connecticut,CT,23-0000,Legal Occupations,major,14190.0,2.9,8.547,1.05,70.34,146320.0,3.1,33.37,51.13,82.73,69410.0,106350.0,172080.0
 10,Delaware,DE,23-0000,Legal Occupations,major,5240.0,3.8,11.161,1.37,71.66,149050.0,6.2,31.94,52.25,95.55,66440.0,108690.0,198750.0
-11,District of Columbia,DC,23-0000,Legal Occupations,major,42370.0,1.8,60.367,7.39,102.54,213280.0,2.8,60.56,88.22,,125950.0,183500.0,
 12,Florida,FL,23-0000,Legal Occupations,major,107390.0,1.5,11.223,1.37,53.58,111450.0,2.8,27.48,38.21,64.03,57160.0,79470.0,133180.0
 13,Georgia,GA,23-0000,Legal Occupations,major,40210.0,3.3,8.452,1.03,59.76,124300.0,4.2,28.14,38.59,72.11,58530.0,80270.0,149990.0
 15,Hawaii,HI,23-0000,Legal Occupations,major,4290.0,2.9,6.948,0.85,46.68,97090.0,2.4,30.48,39.15,57.69,63410.0,81430.0,120000.0
@@ -1420,7 +1395,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 30,Montana,MT,23-0000,Legal Occupations,major,4200.0,2.1,8.381,1.03,40.14,83490.0,2.7,25.79,34.26,49.07,53640.0,71270.0,102060.0
 31,Nebraska,NE,23-0000,Legal Occupations,major,5870.0,4.2,5.869,0.72,49.04,102000.0,2.2,28.19,39.31,60.44,58620.0,81760.0,125720.0
 32,Nevada,NV,23-0000,Legal Occupations,major,12050.0,2.9,8.133,1.0,56.75,118030.0,5.2,30.41,43.95,64.65,63250.0,91420.0,134480.0
-33,New Hampshire,NH,23-0000,Legal Occupations,major,,,,,52.96,110150.0,4.6,28.88,41.56,68.83,60080.0,86440.0,143160.0
 34,New Jersey,NJ,23-0000,Legal Occupations,major,40320.0,2.3,9.595,1.17,67.86,141140.0,3.4,36.14,51.84,86.2,75160.0,107830.0,179290.0
 35,New Mexico,NM,23-0000,Legal Occupations,major,6800.0,2.8,8.037,0.98,44.49,92540.0,2.8,25.48,35.4,51.69,53000.0,73630.0,107520.0
 36,New York,NY,23-0000,Legal Occupations,major,125350.0,1.5,13.345,1.63,82.01,170570.0,2.8,38.26,63.58,111.98,79580.0,132240.0,232910.0
@@ -1432,16 +1406,13 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 42,Pennsylvania,PA,23-0000,Legal Occupations,major,44230.0,2.9,7.435,0.91,57.99,120620.0,3.2,29.13,43.16,72.69,60590.0,89770.0,151180.0
 44,Rhode Island,RI,23-0000,Legal Occupations,major,3980.0,8.1,8.161,1.0,54.77,113930.0,4.4,33.41,45.41,74.58,69500.0,94450.0,155130.0
 45,South Carolina,SC,23-0000,Legal Occupations,major,17280.0,2.4,7.774,0.95,41.3,85890.0,2.7,22.33,29.8,48.59,46450.0,61980.0,101070.0
-46,South Dakota,SD,23-0000,Legal Occupations,major,2220.0,2.8,4.993,0.61,,,,,,,,,
 47,Tennessee,TN,23-0000,Legal Occupations,major,17940.0,2.3,5.572,0.68,53.82,111940.0,3.3,24.5,39.41,65.94,50970.0,81970.0,137150.0
 48,Texas,TX,23-0000,Legal Occupations,major,86740.0,1.9,6.398,0.78,60.64,126130.0,2.7,28.67,46.32,78.7,59640.0,96340.0,163700.0
 49,Utah,UT,23-0000,Legal Occupations,major,11360.0,3.5,6.769,0.83,49.48,102910.0,6.5,24.09,35.94,59.34,50110.0,74750.0,123430.0
 50,Vermont,VT,23-0000,Legal Occupations,major,1930.0,5.4,6.404,0.78,45.39,94400.0,2.6,30.49,38.15,55.29,63420.0,79340.0,115000.0
 51,Virginia,VA,23-0000,Legal Occupations,major,33480.0,2.0,8.409,1.03,64.03,133190.0,2.8,30.82,50.88,82.65,64100.0,105820.0,171910.0
-53,Washington,WA,23-0000,Legal Occupations,major,25390.0,2.2,7.264,0.89,,,,,,,,,
 54,West Virginia,WV,23-0000,Legal Occupations,major,5310.0,2.1,7.709,0.94,41.79,86930.0,2.1,24.31,32.28,51.03,50560.0,67140.0,106140.0
 55,Wisconsin,WI,23-0000,Legal Occupations,major,14940.0,2.3,5.175,0.63,53.72,111730.0,4.2,26.7,36.21,59.42,55540.0,75320.0,123600.0
-56,Wyoming,WY,23-0000,Legal Occupations,major,1810.0,6.8,6.62,0.81,,,,,,,,,
 1,Alabama,AL,25-0000,Educational Instruction and Library Occupations,major,105540.0,1.2,51.404,0.89,26.81,55770.0,0.7,16.49,25.53,30.64,34300.0,53110.0,63730.0
 2,Alaska,AK,25-0000,Educational Instruction and Library Occupations,major,19560.0,1.2,62.768,1.09,36.23,75360.0,0.9,20.95,31.52,40.4,43580.0,65550.0,84030.0
 4,Arizona,AZ,25-0000,Educational Instruction and Library Occupations,major,152590.0,0.8,48.755,0.85,28.91,60140.0,0.5,18.42,24.38,32.78,38310.0,50700.0,68170.0
@@ -1595,57 +1566,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 54,West Virginia,WV,29-0000,Healthcare Practitioners and Technical Occupations,major,60410.0,1.0,87.718,1.43,41.24,85790.0,1.5,22.85,31.33,43.44,47520.0,65160.0,90350.0
 55,Wisconsin,WI,29-0000,Healthcare Practitioners and Technical Occupations,major,181060.0,0.8,62.737,1.03,50.96,106000.0,1.0,29.38,38.53,49.42,61110.0,80130.0,102800.0
 56,Wyoming,WY,29-0000,Healthcare Practitioners and Technical Occupations,major,15010.0,1.8,54.834,0.9,46.82,97390.0,1.1,28.07,37.48,48.63,58390.0,77970.0,101140.0
-1,Alabama,AL,29-9091,Athletic Trainers,detailed,370.0,12.7,0.178,0.95,,53590.0,1.7,,,,45710.0,51600.0,57640.0
-2,Alaska,AK,29-9091,Athletic Trainers,detailed,60.0,35.0,0.205,1.09,,70580.0,5.2,,,,60390.0,74570.0,77480.0
-4,Arizona,AZ,29-9091,Athletic Trainers,detailed,690.0,9.4,0.221,1.18,,64890.0,2.4,,,,50280.0,61520.0,80130.0
-5,Arkansas,AR,29-9091,Athletic Trainers,detailed,180.0,5.2,0.141,0.75,,51500.0,1.3,,,,41600.0,48810.0,57970.0
-6,California,CA,29-9091,Athletic Trainers,detailed,1760.0,6.2,0.098,0.52,,72840.0,1.2,,,,61180.0,72370.0,77450.0
-8,Colorado,CO,29-9091,Athletic Trainers,detailed,480.0,11.9,0.17,0.91,,64520.0,2.9,,,,51870.0,60120.0,67340.0
-9,Connecticut,CT,29-9091,Athletic Trainers,detailed,390.0,27.8,0.234,1.25,,63380.0,1.4,,,,58080.0,61240.0,65050.0
-10,Delaware,DE,29-9091,Athletic Trainers,detailed,110.0,24.0,0.229,1.22,,56270.0,3.8,,,,50290.0,53840.0,61750.0
-11,District of Columbia,DC,29-9091,Athletic Trainers,detailed,120.0,7.6,0.171,0.91,,89720.0,2.2,,,,57630.0,69940.0,100770.0
-12,Florida,FL,29-9091,Athletic Trainers,detailed,1410.0,8.0,0.147,0.78,,56480.0,1.5,,,,48900.0,55210.0,60320.0
-13,Georgia,GA,29-9091,Athletic Trainers,detailed,1400.0,10.1,0.294,1.57,,66270.0,1.7,,,,50380.0,59400.0,76480.0
-15,Hawaii,HI,29-9091,Athletic Trainers,detailed,170.0,5.3,0.269,1.43,,60800.0,0.9,,,,38250.0,68240.0,72800.0
-16,Idaho,ID,29-9091,Athletic Trainers,detailed,100.0,23.6,0.121,0.65,,64450.0,4.8,,,,52990.0,60110.0,69310.0
-17,Illinois,IL,29-9091,Athletic Trainers,detailed,1000.0,5.6,0.166,0.88,,72320.0,6.6,,,,50980.0,61110.0,72460.0
-18,Indiana,IN,29-9091,Athletic Trainers,detailed,760.0,10.4,0.242,1.29,,55380.0,0.9,,,,47090.0,52650.0,58340.0
-19,Iowa,IA,29-9091,Athletic Trainers,detailed,270.0,5.9,0.173,0.92,,51970.0,1.2,,,,43500.0,49230.0,57680.0
-20,Kansas,KS,29-9091,Athletic Trainers,detailed,390.0,4.9,0.278,1.48,,52710.0,0.7,,,,46300.0,52600.0,59360.0
-21,Kentucky,KY,29-9091,Athletic Trainers,detailed,560.0,10.3,0.284,1.51,,53150.0,1.1,,,,46390.0,49490.0,57300.0
-22,Louisiana,LA,29-9091,Athletic Trainers,detailed,310.0,21.8,0.168,0.89,,54980.0,4.0,,,,49380.0,52260.0,59220.0
-23,Maine,ME,29-9091,Athletic Trainers,detailed,190.0,23.4,0.313,1.67,,57890.0,2.0,,,,49250.0,56430.0,62440.0
-24,Maryland,MD,29-9091,Athletic Trainers,detailed,240.0,6.2,0.091,0.49,,61400.0,1.6,,,,49990.0,58490.0,68940.0
-25,Massachusetts,MA,29-9091,Athletic Trainers,detailed,610.0,36.6,0.168,0.9,,66550.0,4.3,,,,50740.0,61850.0,75790.0
-26,Michigan,MI,29-9091,Athletic Trainers,detailed,770.0,6.8,0.177,0.94,,57500.0,0.9,,,,47720.0,53820.0,61070.0
-27,Minnesota,MN,29-9091,Athletic Trainers,detailed,1310.0,12.8,0.453,2.42,,62050.0,1.3,,,,59660.0,60620.0,63280.0
-28,Mississippi,MS,29-9091,Athletic Trainers,detailed,300.0,14.7,0.259,1.38,,52670.0,0.7,,,,48270.0,51100.0,58590.0
-29,Missouri,MO,29-9091,Athletic Trainers,detailed,410.0,12.1,0.142,0.76,,55480.0,1.3,,,,46120.0,49750.0,62270.0
-30,Montana,MT,29-9091,Athletic Trainers,detailed,40.0,8.8,0.084,0.45,,55230.0,1.3,,,,42630.0,48960.0,67070.0
-31,Nebraska,NE,29-9091,Athletic Trainers,detailed,260.0,9.4,0.257,1.37,,58760.0,1.0,,,,49450.0,55630.0,62590.0
-32,Nevada,NV,29-9091,Athletic Trainers,detailed,150.0,35.2,0.101,0.54,,49240.0,9.1,,,,34170.0,50100.0,63500.0
-33,New Hampshire,NH,29-9091,Athletic Trainers,detailed,130.0,3.2,0.19,1.01,,55900.0,1.0,,,,49660.0,54000.0,63460.0
-34,New Jersey,NJ,29-9091,Athletic Trainers,detailed,600.0,14.0,0.142,0.76,,77540.0,4.1,,,,59030.0,71480.0,96700.0
-35,New Mexico,NM,29-9091,Athletic Trainers,detailed,80.0,10.3,0.098,0.52,,65160.0,3.4,,,,48430.0,63770.0,76070.0
-36,New York,NY,29-9091,Athletic Trainers,detailed,960.0,8.8,0.102,0.54,,71410.0,3.7,,,,52820.0,62300.0,78170.0
-37,North Carolina,NC,29-9091,Athletic Trainers,detailed,1110.0,5.8,0.232,1.24,,52700.0,1.0,,,,45530.0,50750.0,58700.0
-38,North Dakota,ND,29-9091,Athletic Trainers,detailed,100.0,4.3,0.24,1.28,,55000.0,1.3,,,,47490.0,53990.0,57330.0
-39,Ohio,OH,29-9091,Athletic Trainers,detailed,1750.0,9.4,0.32,1.71,,58550.0,1.1,,,,50090.0,57780.0,63840.0
-40,Oklahoma,OK,29-9091,Athletic Trainers,detailed,330.0,21.6,0.2,1.07,,66130.0,12.6,,,,40620.0,59940.0,80030.0
-41,Oregon,OR,29-9091,Athletic Trainers,detailed,170.0,9.5,0.087,0.47,,67960.0,3.5,,,,52650.0,60870.0,70480.0
-42,Pennsylvania,PA,29-9091,Athletic Trainers,detailed,2310.0,16.5,0.389,2.07,,56780.0,2.4,,,,47790.0,54590.0,61760.0
-44,Rhode Island,RI,29-9091,Athletic Trainers,detailed,70.0,6.5,0.135,0.72,,60990.0,1.2,,,,48670.0,60110.0,66620.0
-45,South Carolina,SC,29-9091,Athletic Trainers,detailed,440.0,6.9,0.196,1.04,,56850.0,1.0,,,,47660.0,56220.0,62390.0
-46,South Dakota,SD,29-9091,Athletic Trainers,detailed,150.0,17.7,0.34,1.81,,52720.0,2.2,,,,44840.0,50600.0,60190.0
-47,Tennessee,TN,29-9091,Athletic Trainers,detailed,570.0,9.3,0.177,0.95,,56450.0,1.5,,,,49000.0,54010.0,63480.0
-48,Texas,TX,29-9091,Athletic Trainers,detailed,2430.0,2.1,0.18,0.96,,64040.0,1.1,,,,55650.0,61260.0,72950.0
-49,Utah,UT,29-9091,Athletic Trainers,detailed,310.0,11.6,0.183,0.98,,61260.0,1.4,,,,52790.0,59480.0,64810.0
-50,Vermont,VT,29-9091,Athletic Trainers,detailed,130.0,10.5,0.444,2.37,,59960.0,1.8,,,,53100.0,56920.0,65690.0
-51,Virginia,VA,29-9091,Athletic Trainers,detailed,660.0,8.5,0.166,0.88,,65720.0,1.4,,,,48570.0,58910.0,69990.0
-53,Washington,WA,29-9091,Athletic Trainers,detailed,440.0,10.4,0.126,0.67,,59110.0,2.4,,,,52050.0,56160.0,65840.0
-54,West Virginia,WV,29-9091,Athletic Trainers,detailed,180.0,6.7,0.267,1.43,,46590.0,1.7,,,,38650.0,44450.0,51110.0
-55,Wisconsin,WI,29-9091,Athletic Trainers,detailed,700.0,16.4,0.241,1.28,,61120.0,0.9,,,,56510.0,61730.0,64740.0
-56,Wyoming,WY,29-9091,Athletic Trainers,detailed,60.0,10.0,0.205,1.09,,52970.0,3.3,,,,40410.0,49330.0,58860.0
 1,Alabama,AL,31-0000,Healthcare Support Occupations,major,70170.0,1.2,34.178,0.73,15.25,31730.0,0.7,12.0,14.43,17.21,24960.0,30000.0,35790.0
 2,Alaska,AK,31-0000,Healthcare Support Occupations,major,12200.0,1.8,39.148,0.84,22.48,46760.0,0.8,17.61,20.76,24.55,36620.0,43180.0,51070.0
 4,Arizona,AZ,31-0000,Healthcare Support Occupations,major,131920.0,1.6,42.15,0.91,18.85,39210.0,0.5,15.43,17.38,20.97,32100.0,36160.0,43610.0
@@ -1960,11 +1880,9 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 8,Colorado,CO,41-3021,Insurance Sales Agents,detailed,11090.0,4.3,3.917,1.3,36.03,74940.0,4.3,21.37,29.26,38.6,44450.0,60860.0,80290.0
 9,Connecticut,CT,41-3021,Insurance Sales Agents,detailed,5940.0,7.8,3.579,1.19,41.4,86110.0,4.3,24.83,35.29,46.39,51650.0,73410.0,96490.0
 10,Delaware,DE,41-3021,Insurance Sales Agents,detailed,1390.0,9.5,2.957,0.98,31.29,65090.0,5.9,18.92,27.79,37.0,39350.0,57790.0,76960.0
-11,District of Columbia,DC,41-3021,Insurance Sales Agents,detailed,550.0,19.1,0.781,0.26,,,,,,,,,
 12,Florida,FL,41-3021,Insurance Sales Agents,detailed,40030.0,3.4,4.183,1.39,39.14,81410.0,4.1,21.42,27.1,38.73,44560.0,56360.0,80560.0
 13,Georgia,GA,41-3021,Insurance Sales Agents,detailed,17320.0,5.0,3.639,1.21,45.05,93700.0,11.0,19.23,24.78,39.99,40000.0,51540.0,83190.0
 15,Hawaii,HI,41-3021,Insurance Sales Agents,detailed,970.0,15.1,1.569,0.52,32.67,67950.0,6.0,22.34,28.22,35.79,46460.0,58690.0,74440.0
-16,Idaho,ID,41-3021,Insurance Sales Agents,detailed,2370.0,12.4,2.879,0.96,,,,,,,,,
 17,Illinois,IL,41-3021,Insurance Sales Agents,detailed,15690.0,5.3,2.61,0.87,50.55,105150.0,20.1,22.39,24.42,36.79,46580.0,50790.0,76510.0
 18,Indiana,IN,41-3021,Insurance Sales Agents,detailed,12640.0,5.0,4.003,1.33,35.41,73660.0,2.7,21.64,28.76,39.26,45020.0,59810.0,81660.0
 19,Iowa,IA,41-3021,Insurance Sales Agents,detailed,6050.0,6.1,3.919,1.3,35.63,74100.0,4.8,21.75,27.38,38.31,45250.0,56950.0,79690.0
@@ -2095,7 +2013,6 @@ area,area_title,primary_state,occupation_code,occupation_title,occupation_group,
 42,Pennsylvania,PA,43-9021,Data Entry Keyers,detailed,6730.0,20.7,1.131,1.11,18.56,38590.0,3.0,15.86,18.01,21.15,32980.0,37450.0,43980.0
 44,Rhode Island,RI,43-9021,Data Entry Keyers,detailed,380.0,13.8,0.783,0.77,20.63,42900.0,3.6,15.26,20.34,23.84,31730.0,42310.0,49590.0
 45,South Carolina,SC,43-9021,Data Entry Keyers,detailed,1620.0,4.9,0.729,0.72,17.76,36940.0,1.6,14.41,17.04,20.69,29970.0,35430.0,43030.0
-46,South Dakota,SD,43-9021,Data Entry Keyers,detailed,,,,,16.07,33430.0,5.4,13.48,15.72,18.31,28040.0,32690.0,38080.0
 47,Tennessee,TN,43-9021,Data Entry Keyers,detailed,2680.0,10.4,0.832,0.82,18.52,38530.0,1.4,16.03,18.04,21.39,33350.0,37520.0,44490.0
 48,Texas,TX,43-9021,Data Entry Keyers,detailed,23780.0,9.5,1.754,1.73,17.36,36100.0,2.1,13.98,16.91,19.16,29090.0,35170.0,39860.0
 49,Utah,UT,43-9021,Data Entry Keyers,detailed,2180.0,6.0,1.3,1.28,21.33,44370.0,1.7,15.53,19.42,27.72,32290.0,40390.0,57660.0
