@@ -1,0 +1,47 @@
+occ_code,occ_title,o_group
+00-0000,All Occupations,total
+11-0000,Management Occupations,major
+11-3021,Computer and Information Systems Managers,detailed
+13-0000,Business and Financial Operations Occupations,major
+13-1161,Market Research Analysts and Marketing Specialists,detailed
+13-2031,Budget Analysts,detailed
+13-2041,Credit Analysts,detailed
+13-2051,Financial and Investment Analysts,detailed
+13-2054,Financial Risk Specialists,detailed
+15-0000,Computer and Mathematical Occupations,major
+15-1211,Computer Systems Analysts,detailed
+15-1221,Computer and Information Research Scientists,detailed
+15-1242,Database Administrators,detailed
+15-1243,Database Architects,detailed
+15-1251,Computer Programmers,detailed
+15-1252,Software Developers,detailed
+15-1253,Software Quality Assurance Analysts and Testers,detailed
+15-1254,Web Developers,detailed
+15-2011,Actuaries,detailed
+15-2031,Operations Research Analysts,detailed
+15-2041,Statisticians,detailed
+15-2051,Data Scientists,detailed
+17-0000,Architecture and Engineering Occupations,major
+19-0000,"Life, Physical, and Social Science Occupations",major
+19-1022,Microbiologists,detailed
+19-1029,"Biological Scientists, All Other",detailed
+19-2041,"Environmental Scientists and Specialists, Including Health",detailed
+21-0000,Community and Social Service Occupations,major
+23-0000,Legal Occupations,major
+25-0000,Educational Instruction and Library Occupations,major
+27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",major
+29-0000,Healthcare Practitioners and Technical Occupations,major
+31-0000,Healthcare Support Occupations,major
+33-0000,Protective Service Occupations,major
+35-0000,Food Preparation and Serving Related Occupations,major
+37-0000,Building and Grounds Cleaning and Maintenance Occupations,major
+39-0000,Personal Care and Service Occupations,major
+41-0000,Sales and Related Occupations,major
+41-3021,Insurance Sales Agents,detailed
+43-0000,Office and Administrative Support Occupations,major
+43-9021,Data Entry Keyers,detailed
+45-0000,"Farming, Fishing, and Forestry Occupations",major
+47-0000,Construction and Extraction Occupations,major
+49-0000,"Installation, Maintenance, and Repair Occupations",major
+51-0000,Production Occupations,major
+53-0000,Transportation and Material Moving Occupations,major
