@@ -20,9 +20,9 @@ CREATE TABLE "EmploymentWage_Table" (
 );
 
 CREATE TABLE "Occupation_Table" (
-    "occ_code" varchar(10)   NOT NULL,
-    "occ_title" varchar(100)   NOT NULL,
-    "o_group" varchar(20)   NOT NULL,
+    "occ_code" varchar(20)   NOT NULL,
+    "occ_title" varchar(200)   NOT NULL,
+    "o_group" varchar(40)   NOT NULL,
     CONSTRAINT "pk_Occupation_Table" PRIMARY KEY (
         "occ_code"
      )
@@ -42,6 +42,4 @@ REFERENCES "State_Table" ("area");
 
 ALTER TABLE "EmploymentWage_Table" ADD CONSTRAINT "fk_EmploymentWage_Table_occ_code" FOREIGN KEY("occ_code")
 REFERENCES "Occupation_Table" ("occ_code");
-
-
 
