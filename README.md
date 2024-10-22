@@ -42,7 +42,7 @@ You can download the May 2023 OEWS data from [this link](https://www.bls.gov/oes
 We designed a PostgreSQL database to store the cleaned OEWS data. The database schema consists of three main tables: EmploymentWage_Table, State_Table, and Occupation_Table. Below is an entity-relationship diagram (ERD) illustrating the relationships between the tables.
 
 
-![alt text](image.png)
+![alt text](oews_erd.png)
 
 # Table Descriptions
 
