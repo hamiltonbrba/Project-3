@@ -1,4 +1,4 @@
-# my-project-3
+
 # OEWS Employment and Wage Data Project
 This project involves analyzing and storing the Occupational Employment and Wage Statistics (OEWS) data in a PostgreSQL database. The data is sourced from the Bureau of Labor Statistics (BLS) and provides detailed information about employment, wages, and occupation statistics across different U.S. states.
 
@@ -42,7 +42,7 @@ You can download the May 2023 OEWS data from [this link](https://www.bls.gov/oes
 We designed a PostgreSQL database to store the cleaned OEWS data. The database schema consists of three main tables: EmploymentWage_Table, State_Table, and Occupation_Table. Below is an entity-relationship diagram (ERD) illustrating the relationships between the tables.
 
 
-![alt text](image.png)
+![alt text](oews_erd.png)
 
 # Table Descriptions
 
@@ -69,7 +69,7 @@ To replicate the project, follow these steps:
 
 
     git clone https://github.com/hamiltonbrba/Project-3.git
-    cd your-repo-url
+    
 
 2. **Install Dependencies**
 
@@ -114,15 +114,15 @@ To replicate the project, follow these steps:
 8. **Run Queries** Use SQL to query the employment and wage data for analysis.
 
 9. **additional library used psycopg**
-import psycopg2
-    connection = psycopg2.connect(
-        host=os.getenv('DB_HOST2'),
-        port=os.getenv('DB_PORT2'),
-        database=os.getenv('DB_NAME2'),
-        user=os.getenv('DB_USER2'),
-        password=os.getenv('DB_PASS2')
+`import psycopg2
+    `connection = psycopg2.connect(
+        `host=os.getenv('DB_HOST2'),`
+        `port=os.getenv('DB_PORT2'),`
+        `database=os.getenv('DB_NAME2'),`
+        `user=os.getenv('DB_USER2'),`
+        `password=os.getenv('DB_PASS2')`
     )
-cursor = connection.cursor()
+cursor = connection.cursor()`
       [text](../Project-3/SQL-Psycopg2.ipynb)
       
 # Ethical consideration
