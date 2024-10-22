@@ -114,7 +114,7 @@ connection = psycopg2.connect(
 cursor = connection.cursor()
 ```
 
-For more details, check the [Jupyter Notebook](../Project-3/SQL-Psycopg2.ipynb).
+For more details, check the [Jupyter Notebook](SQL-Psycopg2.ipynb).
 
 ## Ethical Considerations
 
